@@ -1,41 +1,57 @@
-# Website
+# Physical AI & Humanoid Robotics: Embodied Intelligence in the Real World
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains a comprehensive 13-week curriculum on Physical AI & Humanoid Robotics, covering everything from ROS 2 fundamentals to Vision-Language-Action systems for autonomous humanoid robots.
 
-## Installation
+## Book Structure
 
-```bash
-yarn
-```
+The book is organized into 5 progressive modules:
 
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+1. **Module 1: Robotic Nervous System (ROS 2)** - Establishing communication infrastructure
+2. **Module 2: Digital Twin (Gazebo & Unity)** - Physics-based simulation environments
+3. **Module 3: AI-Robot Brain (NVIDIA Isaac)** - Perception, navigation, and manipulation
+4. **Module 4: Vision-Language-Action (VLA)** - Natural language to robot action mapping
+5. **Module 5: Capstone - Autonomous Humanoid** - Complete system integration
 
 ## Deployment
 
-Using SSH:
+This site is built with Docusaurus and can be deployed on Vercel with zero configuration.
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/physical-ai-humanoid-robotics&project-name=physical-ai-humanoid-robotics&repository-name=physical-ai-humanoid-robotics)
+
+### Manual Deployment Steps
+
+1. Fork this repository
+2. Sign up for a [Vercel account](https://vercel.com/signup)
+3. Import your forked repository
+4. Vercel will automatically detect this is a Docusaurus project and configure the build
+5. Your site will be deployed and accessible via the provided URL
+
+### Local Development
 
 ```bash
-USE_SSH=true yarn deploy
+# Install dependencies
+npm install
+
+# Start development server
+npm run start
+
+# Build for production
+npm run build
 ```
 
-Not using SSH:
+## Technologies Used
 
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
+- [Docusaurus](https://docusaurus.io/) - Static site generator
+- [React](https://reactjs.org/) - UI library
+- [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
+- [Node.js](https://nodejs.org/) - JavaScript runtime
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
