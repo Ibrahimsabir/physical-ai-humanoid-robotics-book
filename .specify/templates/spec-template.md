@@ -1,9 +1,10 @@
-# Feature Specification: [FEATURE NAME]
+# Book Module Specification: [FEATURE NAME]
 
-**Feature Branch**: `[###-feature-name]`  
-**Created**: [DATE]  
-**Status**: Draft  
+**Feature Branch**: `[###-feature-name]`
+**Created**: [DATE]
+**Status**: Draft
 **Input**: User description: "$ARGUMENTS"
+**Book Project**: Physical AI & Humanoid Robotics: Embodied Intelligence in the Real World
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -109,7 +110,17 @@
 
 ### Measurable Outcomes
 
-- **SC-001**: [Measurable metric, e.g., "Users can complete account creation in under 2 minutes"]
-- **SC-002**: [Measurable metric, e.g., "System handles 1000 concurrent users without degradation"]
-- **SC-003**: [User satisfaction metric, e.g., "90% of users successfully complete primary task on first attempt"]
-- **SC-004**: [Business metric, e.g., "Reduce support tickets related to [X] by 50%"]
+- **SC-001**: [Measurable metric, e.g., "Students can complete account creation in under 2 minutes"]
+- **SC-002**: [Measurable metric, e.g., "Module handles all simulation scenarios without errors"]
+- **SC-003**: [Learning metric, e.g., "90% of students successfully implement a basic robot control system"]
+- **SC-004**: [Education metric, e.g., "Reduce confusion about [X] concepts by 50% based on student feedback"]
+
+## Book Constitution Compliance
+
+### Module Requirements
+- **Specification-First Rule**: All content must be based on a corresponding spec
+- **Modular Architecture**: Content must fit within the book module structure (ROS 2, Digital Twin, AI-Robot Brain, VLA, Capstone)
+- **Physical AI First-Principles**: All explanations must respect physical laws and highlight real-world constraints
+- **Simulation-to-Reality Continuity**: Simulated concepts must map to real hardware
+- **Writing Style Rules**: Content must be clear, precise, technical but readable
+- **Docusaurus Compatibility**: All content must be markdown-friendly and sidebar-ready

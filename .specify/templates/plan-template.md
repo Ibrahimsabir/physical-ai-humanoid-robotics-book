@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- Specification-First Rule: Ensure all implementation details are based on the corresponding spec file
+- Modular Architecture: Verify that the implementation follows the book module structure (ROS 2, Digital Twin, AI-Robot Brain, VLA, Capstone)
+- Physical AI First-Principles: Confirm that all explanations respect physical laws and highlight real-world constraints
+- Simulation-to-Reality Continuity: Ensure that simulated concepts map to real hardware
+- Writing Style Rules: Verify content follows clear, precise, technical but readable style
+- Docusaurus Compatibility: Confirm all content is markdown-friendly and sidebar-ready
 
 ## Project Structure
 

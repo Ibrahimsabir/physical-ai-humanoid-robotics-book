@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Physical AI & Humanoid Robotics: Embodied Intelligence in the Real World
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the comprehensive guide to **Physical AI & Humanoid Robotics**. This 13-week curriculum will take you from fundamental ROS 2 concepts to building an autonomous humanoid system with Vision-Language-Action capabilities.
+
+## About This Book
+
+This book is structured into 5 progressive modules that build upon each other to create a complete understanding of humanoid robotics:
+
+- **Module 1**: The Robotic Nervous System (ROS 2) - Establish communication infrastructure
+- **Module 2**: The Digital Twin (Gazebo & Unity) - Create physics-based simulation environments
+- **Module 3**: The AI-Robot Brain (NVIDIA Isaac) - Implement perception, navigation, and manipulation
+- **Module 4**: Vision-Language-Action (VLA) - Connect natural language to robot actions
+- **Module 5**: Capstone - Autonomous Humanoid Integration
+
+## Learning Path
+
+This curriculum is designed for advanced undergraduate/graduate learners with Python proficiency and basic AI/ML background, but no prior robotics experience required. By the end of this book, you will be able to:
+
+- Design and simulate a humanoid robot
+- Build ROS 2 control systems
+- Perform perception, navigation, and manipulation
+- Integrate LLM-based Vision-Language-Action pipelines
+- Deploy AI workloads to Jetson edge devices
+- Execute a full simulated humanoid capstone
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Begin with **Module 1: ROS 2 Fundamentals** to establish the foundational communication layer that all other modules depend on. Each module includes hands-on exercises, practical examples, and integration checkpoints to ensure you're ready to progress.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Prerequisites
 
-### What you'll need
+- Python proficiency
+- Basic AI/ML background
+- Access to a workstation with NVIDIA GPU (recommended: RTX 4080 with 16GB+ VRAM)
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Hardware & Deployment
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+This book covers both simulation environments and real-world deployment considerations for NVIDIA Jetson AGX Orin platforms, with emphasis on sim-to-real model transfer capabilities.

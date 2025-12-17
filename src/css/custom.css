@@ -6,25 +6,40 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #445878; /* Physical AI blue-gray */
+  --ifm-color-primary-dark: #3a4b68;
+  --ifm-color-primary-darker: #33425b;
+  --ifm-color-primary-darkest: #2a3649;
+  --ifm-color-primary-light: #526a8d;
+  --ifm-color-primary-lighter: #6b82a2;
+  --ifm-color-primary-lightest: #879ccc;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(68, 88, 120, 0.2);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #879ccc; /* Lighter blue-gray for dark mode */
+  --ifm-color-primary-dark: #7186b8;
+  --ifm-color-primary-darker: #6277a8;
+  --ifm-color-primary-darkest: #526a8d;
+  --ifm-color-primary-light: #9db0d6;
+  --ifm-color-primary-lighter: #b4c2dd;
+  --ifm-color-primary-lightest: #cbd4e5;
+  --docusaurus-highlighted-code-line-bg: rgba(135, 156, 204, 0.3);
+}
+
+/* Additional custom styles for Physical AI & Humanoid Robotics book */
+.hero {
+  background: linear-gradient(135deg, #445878 0%, #2a3649 100%);
+}
+
+.button--secondary {
+  background-color: #879ccc;
+  border-color: #879ccc;
+}
+
+.button--secondary:hover {
+  background-color: #6b82a2;
+  border-color: #6b82a2;
 }

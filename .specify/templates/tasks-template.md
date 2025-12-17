@@ -20,10 +20,20 @@ description: "Task list template for feature implementation"
 
 ## Path Conventions
 
-- **Single project**: `src/`, `tests/` at repository root
-- **Web app**: `backend/src/`, `frontend/src/`
-- **Mobile**: `api/src/`, `ios/src/` or `android/src/`
-- Paths shown below assume single project - adjust based on plan.md structure
+- **Book Project**: `docs/`, `src/`, `tests/` at repository root
+- **Module Structure**: `docs/module1/`, `docs/module2/`, etc.
+- **Docusaurus**: `docs/`, `src/`, `blog/`, `pages/`, `static/` at repository root
+- Paths shown below assume book project structure - adjust based on plan.md structure
+
+## Book Constitution Compliance
+
+All tasks must ensure compliance with the Physical AI & Humanoid Robotics book constitution:
+- **Specification-First Rule**: All content must be based on a corresponding spec
+- **Modular Architecture**: Content must fit within the book module structure (ROS 2, Digital Twin, AI-Robot Brain, VLA, Capstone)
+- **Physical AI First-Principles**: All explanations must respect physical laws and highlight real-world constraints
+- **Simulation-to-Reality Continuity**: Simulated concepts must map to real hardware
+- **Writing Style Rules**: Content must be clear, precise, technical but readable
+- **Docusaurus Compatibility**: All content must be markdown-friendly and sidebar-ready
 
 <!-- 
   ============================================================================

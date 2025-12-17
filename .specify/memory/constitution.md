@@ -1,55 +1,64 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: N/A → 1.0.0
+Modified principles: N/A (new constitution)
+Added sections: All sections
+Removed sections: N/A
+Templates requiring updates:
+- .specify/templates/plan-template.md ✅ updated
+- .specify/templates/spec-template.md ✅ updated
+- .specify/templates/tasks-template.md ✅ updated
+- .specify/templates/commands/*.md ⚠ pending
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics: Embodied Intelligence in the Real World Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Specification-First Rule
+No chapter, section, or example may be written without a corresponding spec. Specs define what must exist, not how it is implemented. Claude must treat specs as authoritative contracts.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Modular Architecture
+The book is divided into modules, each representing a system layer: Module 1: Robotic Nervous System (ROS 2), Module 2: Digital Twin (Gazebo & Unity), Module 3: AI-Robot Brain (NVIDIA Isaac), Module 4: Vision-Language-Action (VLA), Capstone: Autonomous Humanoid System. Each module must be self-contained, expose clear inputs, outputs, and responsibilities, and build upon previous modules without duplication.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Physical AI First-Principles
+All explanations must respect physical laws (gravity, inertia, latency), explicitly contrast digital AI vs embodied AI, and highlight real-world constraints: sensor noise, compute limits, latency, energy and hardware tradeoffs. No "magic AI" explanations are allowed.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Simulation-to-Reality Continuity
+Every simulated concept must map to real hardware, sim-to-real transfer must be discussed explicitly, and cloud vs on-prem tradeoffs must be acknowledged.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Writing Style Rules
+Content must be clear, precise, technical, but readable. No marketing language or hype buzzwords without definitions. Use diagrams-friendly explanations and prefer step-by-step mental models over long theory blocks.
 
-### [PRINCIPLE_6_NAME]
+### Docusaurus Compatibility
+Chapters must be markdown-friendly, headings must be hierarchical and sidebar-ready, code blocks must be copy-paste safe, and no inline HTML unless unavoidable.
 
+## Structural Laws
 
-[PRINCIPLE__DESCRIPTION]
+### Tooling Constraints
+The book must explicitly and consistently use: ROS 2 (Humble / Iron), Gazebo, Unity (for visualization), NVIDIA Isaac Sim and Isaac ROS, Jetson Orin devices, and LLMs for planning and conversation (VLA).
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### Capstone Integrity Rule
+The final capstone must integrate perception, planning, navigation, and manipulation, accept natural language or voice commands, execute actions through ROS 2, and operate in simulation and optionally on real hardware. Partial or toy capstones are not acceptable.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Writing Laws
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+### Target Audience Requirements
+Content must be suitable for advanced undergraduate and graduate students, AI engineers transitioning into robotics, robotics engineers learning modern AI + LLM integration, and developers building embodied AI systems. Assume readers already know Python, basic machine learning, and linear algebra and calculus fundamentals. Do NOT assume prior knowledge of ROS 2, Gazebo / Unity simulation, NVIDIA Isaac, or humanoid robotics.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### Prohibited Content
+No proprietary or leaked code, unsafe robot behaviors, vague "future work" placeholders, or unexplained acronyms.
+
+## Enforcement Rules
+
+### Book Mission
+Bridge the gap between digital AI systems and physical embodied intelligence by teaching students how to design, simulate, and deploy humanoid robots that perceive the physical world, understand human language, plan actions, navigate environments, and manipulate objects.
+
+### Compliance Verification
+All content must undergo verification to ensure adherence to physical AI first-principles, simulation-to-reality continuity, and modular architecture requirements. Each module must demonstrate clear integration points with previous modules.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution defines the non-negotiable principles, scope, structure, and writing rules for an AI-authored technical book built using Spec-Kit Plus, Claude Code, Docusaurus, and deployed on GitHub Pages. The constitution ensures that all future content is specification-driven, consistent, modular, and reproducible, and can be safely generated by AI without scope drift. All contributors must follow these rules, and any deviation requires explicit constitutional amendment.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-17
